@@ -1,0 +1,20 @@
+
+<h3>Most present jobs in the "World"</h3>
+<h4 *ngIf="loading">Loading...</h4>
+
+<div class ="container" >
+
+  <div *ngFor="let jobStat of jobStats" class="jobStat">
+
+    <div class="count">
+      <h3>{{ jobStat.count}}</h3>
+    </div>
+
+    <div class="desc">
+      <h3>{{ jobStat.name }}</h3>
+      <h5>{{ getDescription(jobStat) }}</h5>
+    </div>
+
+  </div>
+
+</div>

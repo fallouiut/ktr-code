@@ -1,0 +1,19 @@
+
+<div>
+
+  <form class ="container" [formGroup]="jobForm" >
+    <h3>Choose a job and write a description</h3>
+
+    <select formControlName="id" class="myfield">
+      <option *ngFor="let job of jobs" value="{{ job.id }}">{{ job.jobName }}</option>
+    </select>
+  
+    <textarea formControlName="desc" class="myarea">
+  
+    </textarea>
+  
+    <button (click)="addJobDesc()" class="mybutton">Send</button>
+
+  </form>
+
+</div>

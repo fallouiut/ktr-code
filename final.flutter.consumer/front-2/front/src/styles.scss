@@ -1,0 +1,82 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: white;
+    height: 100vh;
+    width: 100%;
+
+    display: grid;
+    grid-column: 3;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.myfield {
+    height: 30px;
+    width: 50%;
+    margin: 20px;
+
+    border: none;
+    border-radius: 10px;
+    background: #EFEFEF;
+}
+
+.myarea {
+    width: 50%;
+    height: 90px;
+    border: none;
+    border-radius: 10px;
+    background: #EFEFEF;
+}
+
+.mybutton {
+    height: 30px;
+    width: 90px;
+    background: #EFEFEF;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.jobStat {
+    background: #EFEFEF;
+    height: 100px;
+    width: 600px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.count {
+    height: 100%;
+    width: 20%;
+    background: gold;
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.desc h3 {
+    margin: 0;
+}
